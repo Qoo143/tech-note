@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "個人技術筆記",
   description: "紀錄平時學習的紀錄",
+  base: '/tech-note/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
