@@ -2,14 +2,21 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/tech-note/docs/',
+  srcDir: 'docs',
+  head: [["link", { rel: 'icon', href: "/tech-note/logo.svg" }]],
   title: "個人技術筆記",
   description: "紀錄平時學習的紀錄",
-  base: '/tech-note/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主頁', link: './docs/index.md' },
+      {
+        text: 'Javascript', items: [
+          { text: 'Array', link: '/array-method.md' },
+          { text: 'Runtime API Examples', link: '/api-examples' }
+        ],
+      }
     ],
 
     sidebar: [
@@ -32,6 +39,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    footer: {
+      copyright: "Copyright @ 2025-present Qoo143"
+    }
   }
 })

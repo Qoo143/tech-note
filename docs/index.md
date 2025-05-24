@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "個人技術筆記haha"
-  text: "紀錄平時學習的紀錄"
-  tagline: My great project tagline
+  name: "個人技術筆記"
+  text: "紀錄平時所學"
+  tagline: coding everyday
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
