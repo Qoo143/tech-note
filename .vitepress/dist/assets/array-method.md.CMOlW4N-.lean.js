@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as t,ae as n}from"./chunks/framework.Cthp9TdA.js";const o=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"array-method.md","filePath":"array-method.md"}'),h={name:"array-method.md"};function p(e,s,l,k,r,d){return t(),a("div",null,s[0]||(s[0]=[n("",4)]))}const g=i(h,[["render",p]]);export{o as __pageData,g as default};
