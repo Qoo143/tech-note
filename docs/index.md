@@ -6,6 +6,9 @@ hero:
   name: "個人技術筆記"
   text: "紀錄平時所學"
   tagline: coding everyday
+  image:
+    src: /images/bubble.jpg
+    alt: "picture"
   actions:
     - theme: brand
       text: Markdown Examples
