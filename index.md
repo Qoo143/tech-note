@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "個人技術筆記"
+  name: "個人技術筆記haha"
   text: "紀錄平時學習的紀錄"
   tagline: My great project tagline
   actions:
