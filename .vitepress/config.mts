@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/tech-note/docs/',
+  base: '/tech-note/',
   srcDir: 'docs',
   head: [["link", { rel: 'icon', href: "/tech-note/logo.svg" }]],
   title: "個人技術筆記",
