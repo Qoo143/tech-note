@@ -10,11 +10,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主頁', link: './docs/index.md' },
+      { text: '主頁', link: './' },
       {
         text: 'Javascript', items: [
-          { text: 'Array', link: '/array-method.md' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Array', link: 'Javascript/Array/array-method' },
         ],
       }
     ],
@@ -30,8 +29,10 @@ export default defineConfig({
       },
       {
         text: 'Javascript',
+        collapsed: true, // 預設折疊狀態
         items: [
-          { text: 'Array常用方法', link: '/array-method.md' },
+          { text: 'Array常用方法', link: 'Javascript/array-method' },
+          { text: 'Array常用方法', link: 'Javascript/array-method' },
 
         ],
       }
