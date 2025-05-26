@@ -13,7 +13,10 @@ export default defineConfig({
       { text: '主頁', link: './' },
       {
         text: 'Javascript', items: [
+          //連接到Array資料夾的第一個文件
           { text: 'Array', link: 'Javascript/Array/array-method' },
+          //連接到OOP物件導向資料夾的第一個文件
+          { text: 'OOP', link: 'Javascript/OOP/new' },
         ],
       }
     ],
