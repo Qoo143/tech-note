@@ -4,24 +4,25 @@ layout: home
 
 hero:
   name: "個人技術筆記"
-  text: "紀錄平時所學"
-  tagline: coding everyday
+  text: "紀錄平時所學 <br> (剛搭建5/27)"
+  tagline: "目前都還在規劃撰寫中"
   image:
     src: images/bubble.jpg
     alt: "picture"
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Markdown 語法範例
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API 範例
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Vue
+    details: 此處尚未放置內容
+    link: /markdown-examples
+
+  - title: Gsap
+    details: 此處尚未放置內容
+    link: /markdown-examples
 ---
